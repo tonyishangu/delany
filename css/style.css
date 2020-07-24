@@ -27,3 +27,10 @@ footer{
 h2{
     text-align: center;
 }
+#contact{
+    text-align: center;
+    background-image: url('../image/c_image.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+}
