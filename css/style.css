@@ -12,7 +12,11 @@ header{
 }
 #services{
     text-align: center;
-    background-color: blueviolet;
+    background-image: url('../image/s_image.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    color: white;
 }
 #portfolio{
     background-color: burlywood;
