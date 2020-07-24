@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Delany</title>
 </head>
@@ -50,7 +52,23 @@
         <img src="image/work7.jpg" alt="work7" width="250px">
         <img src="image/work8.jpg" alt="work8" width="250px">
     </div>
-
+    <div class="contact" id="contact">
+        <h1>CONTACT US</h1>
+        <form class="form-cont" id="submitform">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" id="name" class="form-control" placeholder="Name...">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" id="email" class="form-control" placeholder="Email...">
+                </div><br><br>
+    
+                <textarea rows="10" cols="90" placeholder="Your message here..." id="text"></textarea><br>
+    
+            </div>
+            <button type="submit" class="btn btn-primary">SUBMIT</button>
+        </form>
+    </div>
 
 
     <footer>
