@@ -1,5 +1,8 @@
 header{
-   background-color: aqua;
+    background-image: url('../image/h_img.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
     text-align: center;
     height: 330px;
 }
@@ -11,9 +14,12 @@ header{
     text-align: center;
     background-color: blueviolet;
 }
-#whatwedo{
-    background-color: brown;
-}
 #portfolio{
     background-color: burlywood;
+}
+footer{
+    text-align: center;
+}
+h2{
+    text-align: center;
 }
