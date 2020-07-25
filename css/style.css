@@ -5,10 +5,10 @@ header{
     background-size: cover;
     text-align: center;
     height: 330px;
+    color: white;
 }
 #about{
     text-align: center;
-    background-color: azure;
 }
 #services{
     text-align: center;
@@ -33,4 +33,7 @@ h2{
     background-repeat: no-repeat;
     height: 300px;
     background-size: cover;
+}
+.last{
+    font-style: italic;
 }
