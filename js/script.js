@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function (e) {
     $(".click1").click(function () {
         $("#para1").toggle();
         $(".hide1").toggle();
