@@ -81,6 +81,18 @@ h2{
 footer{
     text-align: center;
 }
-#whatwedo{
-    display: none;
-}
+@media (){
+    #container{
+        width: auto;
+        height: auto;
+    }
+    #header{
+        width: auto;
+    }
+    #contact{
+        width: auto;
+        height: auto;
+    }
+    #footer{
+        width: auto;
+    }

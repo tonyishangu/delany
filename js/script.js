@@ -1,15 +1,15 @@
-$(document).ready(function (e) {
+$(document).ready(function () {
     $(".click1").click(function () {
-        $("#para1").toggle();
-        $(".hide1").toggle();
+        $("#par1").toggle();
+        $(".hidden1").toggle();
     });
     $(".click2").click(function () {
-        $("#para2").toggle();
-        $(".hide2").toggle();
+        $("#par2").toggle();
+        $(".hidden2").toggle();
     });
     $(".click3").click(function () {
-        $("#para3").toggle();
-        $(".hide3").toggle();
+        $("#par3").toggle();
+        $(".hidden3").toggle();
     });
     $('form#submitform').submit(function () {
         var name = $('#name').val();
